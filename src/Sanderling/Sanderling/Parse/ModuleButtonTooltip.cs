@@ -77,10 +77,18 @@ namespace Sanderling.Parse
 		};
 
 		static readonly string[] IsMinerSetIndicatorLabelRegexPattern = new string[]{
-			@"Miner",
-			@"Mining\sLaser$",
-			@"Mining\sLaser\s(?!Upgrade)",
-		};
+		"Civilian Miner",
+		"Deep Core Mining Laser I",
+		"EP-S Gaussian Scoped Mining Laser",
+		"Gallente Mining Laser",
+		"Miner I",
+		"Miner II",
+		"Modulated Deep Core Miner II",
+		"ORE Deep Core Mining Laser",
+		"ORE Miner",
+		"Particle Bore Compact Mining Laser",
+		"Single Diode Basic Mining Laser",
+	};
 
 		MemoryStruct.IContainer Raw;
 
